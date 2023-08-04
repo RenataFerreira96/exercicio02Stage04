@@ -1,18 +1,18 @@
 let listaDeEstudantes = [
     {
-        nomeDoEstudante: 'Murilo',
-        primeiraNota: 6,
-        segundaNota: 9,
+        nomeDoAluno: 'João',
+        primeiraNota: 7,
+        segundaNota: 6,
     },
 
     {
-        nomeDoEstudante: 'Ana',
+        nomeDoAluno: 'Ana',
         primeiraNota: 5,
         segundaNota: 3,
     },
 
     {
-        nomeDoEstudante: 'Sara',
+        nomeDoaluno: 'Clara',
         primeiraNota: 8,
         segundaNota: 8,
     }        
@@ -28,6 +28,6 @@ for(let estudante of listaDeEstudantes){
     mediaIndividual = calculaMedia(estudante.primeiraNota, estudante.segundaNota)
     let aprovadoOuNao = mediaIndividual < 7 ? 'Infelizmente não foi dessa vez. Estude mais' : 'Parabéns pela sua aprovação'
 
-    alert(`A média de ${estudante.nomeDoEstudante} é ${mediaIndividual}.
+    alert(`A média de ${estudante.nomeDoAluno} é ${mediaIndividual}.
 ${aprovadoOuNao}`)
 }       
